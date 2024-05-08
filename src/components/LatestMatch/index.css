@@ -1,0 +1,65 @@
+.latest-match-card {
+    background-color: #1e293b;
+    font-family: Bree Serif;
+    border-radius: 10px;
+  }
+  
+  .compete-team {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .date {
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .compete-team-logo {
+    width: 120px;
+  }
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .line {
+    border: 2px solid #475569;
+    width: 100%;
+  }
+  .second {
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .ans {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  @media (min-width: 577px) {
+    .latest-match-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .line {
+      display: none;
+    }
+    .compete-team {
+      font-size: 30px;
+    }
+    .date {
+      font-size: 24px;
+    }
+    .ans {
+      font-size: 20px;
+    }
+    .compete-team-logo {
+      width: 300px;
+      margin-left: 40px;
+    }
+  }
+  

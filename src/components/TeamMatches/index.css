@@ -1,0 +1,63 @@
+.team-matches {
+    background: fixed;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+    min-height: 100vh;
+  }
+  .RCB {
+    background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  }
+  .KKR {
+    background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+  }
+  .KXP {
+    background-image: linear-gradient(to bottom, #da237b, #0f172a);
+  }
+  .CSK {
+    background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+  }
+  .RR {
+    background-image: linear-gradient(to bottom, #13418b, #0f172a);
+  }
+  .MI {
+    background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+  }
+  .SH {
+    background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+  }
+  .DC {
+    background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+  }
+  
+  .banner-img {
+    width: 100%;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .latest-matches-hed {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+  }
+  @media (min-width: 577px) {
+    .team-matches {
+      padding: 50px;
+    }
+    .banner-img {
+      width: 100%;
+    }
+    .latest-matches-hed {
+      font-size: 24px;
+    }
+  }
+  .recents-section {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
