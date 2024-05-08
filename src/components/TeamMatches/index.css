@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Bree Serif;
+    font-family: 'Bree Serif';
     min-height: 100vh;
   }
   .RCB {
@@ -53,6 +53,13 @@
   .recents-section{
     display: flex;
     flex-wrap: wrap;
+  }
+
+  @media(max-width: 700px){
+    .recents-section{
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 
 
