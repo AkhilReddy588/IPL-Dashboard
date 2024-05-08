@@ -37,8 +37,8 @@
   
   @media (max-width: 700px) {
     .recent-item {
-      width: 150px;
-      height: 300px;
+      width: 120px;
+      height: 270px;
       padding: 15px;
       margin: 10px; 
     }
@@ -51,6 +51,12 @@
     }
     .result {
       font-size: 15px;
+    }
+    .lost{
+      font-size: 20px;
+    }
+    .win{
+      font-size: 20px;
     }
   }
   
