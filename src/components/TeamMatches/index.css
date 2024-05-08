@@ -35,7 +35,7 @@
   }
   
   .banner-img {
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     align-self: center;
   }
@@ -43,22 +43,18 @@
     color: #ffffff;
     text-align: left;
     margin-top: 20px;
+    font-size: 24px;
+    font-family: Bree serif;
+  }
+  
+  .team-matches {
+    padding: 50px;
+  }
+  .recents-section{
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  @media(max-width: 700px){
-    
-  }
 
-  @media (min-width: 701px) {
-    .team-matches {
-      padding: 50px;
-    }
-    .banner-img {
-      width: 80%;
-    }
-    .latest-matches-hed {
-      font-size: 24px;
-    }
-  }
   
   
