@@ -51,11 +51,11 @@ class TeamMatches extends Component {
               <p className="latest-matches-hed">Latest Matches</p>
               <LatestMatch latestMatchDetails={latestMatchDetails} />
             </div>
-            <ul className="recents-section">
+            <div className="recents-section">
               {recentMatches.map(eachItem => (
                 <MatchCard item={eachItem} key={eachItem.id} />
               ))}
-            </ul>
+            </div>
           </div>
         )}
       </div>
