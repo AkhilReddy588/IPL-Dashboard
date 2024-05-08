@@ -41,7 +41,7 @@ class TeamMatches extends Component {
             <Rings type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : ( 
-          <>
+          <div className='team-match-content'>
             <img
               src={team_banner_url}
               className="banner-img"
@@ -56,7 +56,7 @@ class TeamMatches extends Component {
                 <MatchCard item={eachItem} key={eachItem.id} />
               ))}
             </ul>
-          </>
+          </div>
         )}
       </div>
     )
