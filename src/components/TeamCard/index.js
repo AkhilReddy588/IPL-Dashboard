@@ -12,6 +12,6 @@ const TeamCard = props => {
       </li>
     </Link> 
   )
-}
+} 
 
 export default TeamCard
