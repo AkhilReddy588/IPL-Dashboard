@@ -59,6 +59,10 @@
     .recents-section{
       display: flex;
       flex-wrap: wrap;
+      width: 500px;
+    }
+    .banner-img{
+      width: 100%;
     }
   }
 
