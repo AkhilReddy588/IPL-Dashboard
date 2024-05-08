@@ -16,7 +16,7 @@
       background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
     }
   }
-  .logo-section {
+  .logo-section { 
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@
   }
   @media (max-width: 576px) {
     .teams-section {
-      width: 570px;
+      width: 300px;
     }
   }
   

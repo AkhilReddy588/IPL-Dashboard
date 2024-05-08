@@ -32,7 +32,7 @@ class Home extends Component {
           />
           <h1 className="logo-heading">IPL Dashboard</h1>
         </div>
-        <div className="teams-section">
+        <div className="teams-section"> 
           {isLoading ? (
             <div testid="loader">
               <Rings type="Oval" color="#ffffff" height={50} width={50} />
