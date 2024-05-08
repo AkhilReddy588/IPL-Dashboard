@@ -49,6 +49,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media(max-width: 700px){
+    .recents-section{
+      width: 500px;
+    }
+  }
+
   @media (min-width: 701px) {
     .team-matches {
       padding: 50px;
