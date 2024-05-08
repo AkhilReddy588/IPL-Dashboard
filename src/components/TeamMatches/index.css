@@ -44,6 +44,12 @@
     text-align: left;
     margin-top: 20px;
   }
+  .recents-section {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
   @media (min-width: 701px) {
     .team-matches {
       padding: 50px;
