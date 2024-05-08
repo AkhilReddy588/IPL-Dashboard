@@ -37,9 +37,9 @@
     flex-wrap: wrap;
     width: 750px;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 700px) {
     .teams-section {
-      width: 300px;
+      width: 400px;
     }
   }
   
