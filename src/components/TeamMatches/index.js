@@ -40,7 +40,7 @@ class TeamMatches extends Component {
           <div testid="loader">
             <Rings type="Oval" color="#ffffff" height={50} width={50} />
           </div>
-        ) : (
+        ) : ( 
           <>
             <img
               src={team_banner_url}
