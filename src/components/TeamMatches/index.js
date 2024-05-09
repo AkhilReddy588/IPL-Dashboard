@@ -40,8 +40,8 @@ class TeamMatches extends Component {
           <div testid="loader">
             <Rings type="Oval" color="#ffffff" height={50} width={50} />
           </div>
-        ) : (  
-          <div className='team-match-content'>
+        ) : (
+          <>
             <img
               src={team_banner_url}
               className="banner-img"
@@ -51,12 +51,12 @@ class TeamMatches extends Component {
               <p className="latest-matches-hed">Latest Matches</p>
               <LatestMatch latestMatchDetails={latestMatchDetails} />
             </div>
-            <div className="recents-section">
+            <ul className="recents-section">
               {recentMatches.map(eachItem => (
                 <MatchCard item={eachItem} key={eachItem.id} />
               ))}
-            </div>
-          </div>
+            </ul>
+          </>
         )}
       </div>
     )
