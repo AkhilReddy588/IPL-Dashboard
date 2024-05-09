@@ -34,7 +34,7 @@
     font-size: 24px;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 768px) and (min-width:577px) {
     .recent-item {
       width: 150px; 
       padding: 15px;
@@ -56,5 +56,31 @@
     .win{
       font-size: 20px;
     }
+  }
+
+  @media(max-width: 576px){
+
+    .recent-item {
+      width: 110px; 
+      padding: 10px;
+      margin: 10px; 
+    }
+    .recent-logo {
+      width: 60px;
+      height: 60px;
+    }
+    .recent-team {
+      font-size: 12px;
+    }
+    .result {
+      font-size: 10px;
+    }
+    .lost{
+      font-size: 18px;
+    }
+    .win{
+      font-size: 18px;
+    }
+
   }
   
