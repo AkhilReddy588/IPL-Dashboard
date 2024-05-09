@@ -16,5 +16,5 @@ const MatchCard = props => {
       <p className={statStyle}>{match_status}</p>
     </div>
   )
-}
+} 
 export default MatchCard

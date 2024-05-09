@@ -44,20 +44,21 @@
   text-align: left;
   margin-top: 20px;
 }
-@media (min-width: 700px) {
-  .team-matches {
-    padding: 50px;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .latest-matches-hed {
-    font-size: 24px;
-  }
-}
 .recents-section {
   align-self: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (min-width: 700px) {
+  .team-matches {
+    padding: 50px;
+  }
+  .banner-img {
+    width: 100%; 
+  }
+  .latest-matches-hed {
+    font-size: 24px;
+  }
+}
+
