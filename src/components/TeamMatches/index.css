@@ -44,7 +44,7 @@
   text-align: left;
   margin-top: 20px;
 }
-@media (min-width: 577px) {
+@media (min-width: 700px) {
   .team-matches {
     padding: 50px;
   }
