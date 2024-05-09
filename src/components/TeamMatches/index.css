@@ -34,6 +34,10 @@
     background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
   }
 
+  .team-match-content{
+    display: flex;
+    flex-direction: column;
+  }
   
   .banner-img {
     width: 80%;
