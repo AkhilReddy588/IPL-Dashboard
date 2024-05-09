@@ -37,6 +37,7 @@
   .team-match-content{
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
   
   .banner-img {
@@ -70,6 +71,9 @@
       flex-wrap: wrap;
       justify-content: center;
       width: 500px;
+    }
+    .banner-img{
+      width: 100%;
     }
     .banner-img{
       width: 100%;
